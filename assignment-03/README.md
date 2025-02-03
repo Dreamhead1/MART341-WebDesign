@@ -11,7 +11,7 @@ I am an artist, my medium is **paint**, but I also
 
 ### Here's my latest painting
 
-![Acrylic on Canvas 18x24", Dimensional Monkey Truth](assignment-03/images/myArt.jpg)
+![Acrylic on Canvas 18x24", Dimensional Monkey Truth](./images/myArt.jpg)
 
 AND!
 
