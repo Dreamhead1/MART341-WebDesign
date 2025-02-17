@@ -1,0 +1,4 @@
+ # **Reflect on a class you truly enjoyed (this could be from a university, college, high school, or even an extracurricular activity); what made it special?😊**
+## *One of my favorite classes to date would probably be my current intro to animation course here at the U.* 
+
+Not only is it challenging me artistically but it's simultaneously blowing my mind with the result I can get from 124 frames at 12fps of work. The level it stimulates my mind at feels so inherent, like my brain was designed exclusively for doing this! I find it meditative and impressive to animate, especially hand-drawn styles or paint-on-glass styles... 
