@@ -22,6 +22,7 @@ table, th, td {padding: 5px; background-color: rgb(80, 24, 133); margin-left: 10
 button:hover { background-color: rgb(142, 103, 5); font-variant: small-caps; }
 .button:active a {background-color: rgb(142, 103, 5); color: rgb(142, 103, 5); border: 20px rgb(142, 103, 5) groove;}
 button { width: 100%; background-color: inherit; padding-top: 10px; padding-bottom: 10px;}
+#hoverButtons a {font-family: 'FingerPaint-Regular', fantasy, cursive ;}
 .button a {
     background-color: rgb(142, 103, 5);
     border: 20px black groove;
@@ -37,7 +38,16 @@ button { width: 100%; background-color: inherit; padding-top: 10px; padding-bott
 
 @font-face {
     font-family: 'RubikWetPaint-Regular';
-    src: url(/Assignment11/workshop/fonts/RubikWetPaint-Regular.ttf);
+    src: url(https://dreamhead1.github.io/MART341-WebDesign/Assignment11/workshop/fonts/RubikWetPaint-Regular.ttf) format('truetype');
+    
+}
+@font-face {
+    font-family: 'FingerPaint-Regular';
+    src: url(https://dreamhead1.github.io/MART341-WebDesign/Assignment11/workshop/fonts/FingerPaint-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Ephesis-Regular';
+    src: url(https://dreamhead1.github.io/MART341-WebDesign/Assignment11/workshop/fonts/Ephesis-Regular.ttf) format('truetype');
 }
 
 /*
