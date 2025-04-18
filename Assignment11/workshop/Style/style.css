@@ -35,6 +35,11 @@ button { width: 100%; background-color: inherit; padding-top: 10px; padding-bott
     font-variant: initial;
                 }
 
+@font-face {
+    font-family: 'RubikWetPaint-Regular';
+    src: url(/Assignment11/workshop/fonts/RubikWetPaint-Regular.ttf);
+}
+
 /*
 .button:hover {
   background-color: orange; /* Green 
