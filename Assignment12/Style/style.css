@@ -1,0 +1,19 @@
+body {background-color: rgb(38, 68, 138); border-color: black; border-style: none; border-left: 50px;}
+h1 {text-align: center;color: darkgoldenrod; border-top-color: black; border-top-width: 80px; border-top-style: inset; 
+    background-color: black; font-size: 60px;}
+h2 {text-align: left; color: rgb(80, 24, 133); background-color: black; font-size: 40px; text-align: center; 
+    }
+ul {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: black; font-size: 25px; text-align: 
+    left;background-color: rgb(142, 103, 5);text-align: center;margin-left: 200px;margin-right: 200px;}
+p {font-size: 30px; color: black; text-align: left; background-color: rgb(142, 103, 5);margin-left: 100px;
+    margin-right: 100px;}
+i {text-align: left;}
+a {background-color: black; font-size: 40px;}
+#iframeRow iframe {border: 1px groove black;}
+input {border: 10px rgb(142, 103, 5) groove;}
+.body a {color: rgb(80, 24, 133); background-color: black;}
+.body h2 { background-color: black; color: rgb(80, 24, 133); font-size: 30px;font-style: italic;}
+table, th, td {padding: 5px; background-color: rgb(80, 24, 133); margin-left: 100px;border: 5px solid black; color: darkgoldenrod;}
+#introWorkshop li {text-align: left; color: rgb(142, 103, 5);}
+
+
