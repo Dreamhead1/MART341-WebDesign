@@ -1,14 +1,28 @@
 # DHC *README FILE* & *REFLECTION*
-## Required Techniques (Must Have):
-🔔If continuing a previous project, designate the name of the HTML page you worked on at the top of your README.md file (e.g., **gallery.html**)
-📝Add the following list of techniques to your README.md file. As you work through the assignment, document how and why you applied each technique.
-Select at least 6 of the following techniques to implement:
 
-Sizing – Control the width and height of elements on the page.
-Overflow – Manage how content is displayed when it exceeds the elements boundaries.
-Border – Define and style borders around elements for emphasis or separation.
-Margin – Adjust the space outside an element, creating separation from other elements.
-Padding – Set the space inside an element, between its content and border.
-Display: Inline / Inline-block . Specify how elements are displayed in relation to others.
-Dropdown – Create a dropdown menu for navigation or content organization.
-Position – Control the placement of elements with properties like absolute, relative, or fixed.
+## Required Techniques (Must Have):
+    All on workshop.html and the workshop style.css in the Style folder...
+##
+
+- Sizing – Control the width and height of elements on the page.
+    I used sizing to create the borders within the borders, while also using it in my absolute positioning
+    of the drop-down content.
+    #
+- Border – Define and style borders around elements for emphasis or separation.
+    Used to create a sense of repetition and symmetry on the page.
+    #
+- Margin – Adjust the space outside an element, creating separation from other elements.
+    I used margins extensively, especially while wanting to position without having to absolute position items.
+    #
+- Padding – Set the space inside an element, between its content and border.
+    Padding was used harmonize the elements within my content boxes, making it evening spaced between the borders.
+    #
+- Display: Inline / Inline-block . Specify how elements are displayed in relation to others.
+    Used with absolute positioning to create the dropped nav within the drop down
+    #
+- Dropdown – Create a dropdown menu for navigation or content organization.
+    Drop-down was used to declutter the page and its content, while making it more fun to access simultaneously to 
+    making it more organized to interact with.
+    #
+
+# BY DYAMI CLEMENTE
