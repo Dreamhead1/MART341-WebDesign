@@ -72,10 +72,10 @@ table, th, td {
     font-size: 60px;
     font-weight: 900;}
 button:hover { 
-    background-color: rgb(142, 103, 5);}
+    background-color: rgb(80, 24, 133);}
 .button:active a {
     background-color: rgb(142, 103, 5); 
-    color: rgb(142, 103, 5); 
+    color: black; 
     border: 20px rgb(142, 103, 5) groove;}
 button {
     width: 100%; 
@@ -128,8 +128,8 @@ button {
 .hidden2 {
     display: none;
     position: absolute;
-    bottom: -80px;
-    right: -450px;
+    bottom: -100px;
+    right: -380px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
