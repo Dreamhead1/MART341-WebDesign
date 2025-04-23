@@ -144,10 +144,23 @@ button {
     display: block;
     font-family: 'RubikWetPaint-Regular', fantasy, cursive ;}
 
-.hidden2 a:hover {background-color:rgb(80, 24, 133)}
+.hoverPurple button:hover {background-color: rgb(80, 24, 133);}
+
+.hidden2 a:hover {background-color:rgb(80, 24, 133);}
 .body2:hover .hidden2 {display: inline-block;}
 .body2:hover .hidden2 {background-color: black;}
+  /* 
+.body #collective div{
+    width: 900px;
+    height: 900px;
+    border: groove 20px rgb(142, 103, 5); 
+    background-color: rgb(38, 68, 138);
+  }  
 
+    padding: ;
+    margin: ;
+  
+  */
 
 
 @font-face {
