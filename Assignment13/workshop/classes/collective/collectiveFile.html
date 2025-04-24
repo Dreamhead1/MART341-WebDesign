@@ -7,8 +7,8 @@
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
                 <title>Collective file<b>Art Collective</b></title>
             <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" type="text/css" href="https://dreamhead1.github.io/MART341-WebDesign/Assignment13/Style/style.css"> 
-        <link rel="stylesheet" type="text/css" href="signup/signup.css">
+            <link rel="stylesheet" type="text/css" href="https://dreamhead1.github.io/MART341-WebDesign/Assignment13/workshop/Style/style.css"> 
+            <link rel="stylesheet" type="text/css" href="signup/signup.css">
     </head>
 <body id="body" class="body">
     <div id="nav" class="body">
@@ -18,13 +18,16 @@
         </h1>        
             <h2 style="word-spacing: 50px;">
                 <aside>
+                    <a href="https://dreamhead1.github.io/MART341-WebDesign/Assignment13/workshop/classes/collective.html" 
+                        style=" margin-left: 100px; color: rgb(80, 24, 133);"> 
+                        BACK</a>
                     <a href="https://dreamhead1.github.io/MART341-WebDesign/Assignment13/index.html" 
-                        style="float: right; margin-right: 625px; color: rgb(80, 24, 133);"> 
-                        HOMEPAGE </a>
+                        style=" margin-left: 100px; color: rgb(80, 24, 133);"> 
+                        HOMEPAGE</a>
                     <a 
                         href="https://dreamhead1.github.io/MART341-WebDesign/Assignment11/about.html" 
-                        style="color: rgb(80, 24, 133);"> 
-                        ABOUT </a>
+                         style=" margin-left: 100px; color: rgb(80, 24, 133);"> 
+                        ABOUT</a>
                 </aside>
             </h2>
         </div>
@@ -39,37 +42,57 @@
                 margin: 30px 250px 100px 300px;
                 width: 900px;">
 
-            <form action="action_page.php">
+            <form action="mailto:dyami@a-i-tech.net" method="post" enctype="text/plain">
                 <div class="container">
-                  <h2>Sign Up</h2>
-                  <h3 style="color: rgb(142, 103, 5);">Please fill in this form to create an account.</h3>
+                  <h2>Become A Citizen!</h2>
+                  <h3 style="color: rgb(142, 103, 5);">Please fill in this form.</h3>
                   
                   <hr / color="purple">
-              
-                  <label for="email"><b style="color: rgb(142, 103, 5);">Email</b></label>
-                  <input type="text" placeholder="Enter Email" name="email" required>
-              
-                  <label for="psw"><b style="color: rgb(142, 103, 5);">Password</b></label>
-                  <input type="password" placeholder="Enter Password" name="psw" required>
-              
-                  <label for="psw-repeat"><b style="color: rgb(142, 103, 5);">Repeat Password</b></label>
-                  <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-              
-                  <label>
-                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px;">
-                    <b style="color: rgb(142, 103, 5);">Remember me</b>
-                  </label>
-              
-                  <h3 style="color: rgb(142, 103, 5);">By creating an account you agree to our <a href="#" style="color:dodgerblue">
-                    Terms & Privacy</a></h3>
-              
-                  <div class="clearfix">
-                    <button type="button" class="cancelbtn" style="background-color: rgb(142, 103, 5);"> <a href="collective.html" 
-                        style="background-color: rgb(142, 103, 5); text-decoration: none;">
-                        Cancel</a></button>
-                    <button type="submit" class="signupbtn" style="background-color: rgb(142, 103, 5);"><a href="confirmationPage.html"
-                        style="background-color: rgb(142,103, 5); text-decoration: none;">
-                        Sign Up</a></button>
+              <div class="labelInput">
+                  <label for="fname"><b style="color: rgb(142, 103, 5); position: relative; font-size: 20px;">First Name</b></label>
+                  <input type="text" placeholder="First Name" name="fname" required>
+              <br/>
+              <br/>
+                  <label for="lname"><b style="color: rgb(142, 103, 5); position: relative; font-size: 20px;">Last Name</b></label>
+                  <input type="text" placeholder="Last Name" name="lname" required>
+              <br/>
+              <br/>
+                  <label for="email"><b style="color: rgb(142, 103, 5); position: relative; font-size: 20px;">Email</b></label>
+                  <input type="email" placeholder="Email@Email.Email" name="email" required>
+              <br/>
+              <br/>
+                    <b style="color: rgb(142, 103, 5); position: relative; display: block; font-size: 20px;"> 
+                    Submit 6 images of 2 mediums of your art; the majority may be in concentrated area.</b>
+            <table style=" background-color: darkgoldenrod; position: relative; right: -30px;">
+                <tr>
+                    <th>
+                        <input type="file" class="myFile" name="filename" style="position: relative; width: 55px; height: 20px;" required>
+                    </th>
+                    <th>
+                        <input type="file" class="myFile" name="filename" style="position: relative; width: 55px; height: 20px;" required>
+                    </th>
+                    <th>
+                        <input type="file" class="myFile" name="filename" style="position: relative; width: 55px; height: 20px;" required>
+                    </th>
+                    <th>
+                        <input type="file" class="myFile" name="filename" style="position: relative; width: 55px; height: 20px;" required>
+                    </th>
+                    <th>
+                        <input type="file" class="myFile" name="filename" style="position: relative; width: 55px; height: 20px;" required>
+                    </th>
+                    <th>
+                        <input type="file" class="myFile" name="filename" style="position: relative; width: 55px; height: 20px;" required>
+                    </th>
+                </tr>
+            </table>
+              <br/>
+              <br/>
+            </div>
+              <br/>
+                    <button 
+                        type="submit" style="width: 300px; height: 100px; "><a href="confirmationPage.html"
+                        style="text-decoration: none; color: rgb(142, 103, 5); background-color: inherit;">
+                        Submit</a></button>
                   </div>
                 </div>
               </form>
@@ -79,13 +102,16 @@
 <div id="nav" class="body">
     <h2 style="word-spacing: 50px;">
         <aside>
+            <a href="https://dreamhead1.github.io/MART341-WebDesign/Assignment13/workshop/classes/collective.html" 
+                style=" margin-left: 100px; color: rgb(80, 24, 133);"> 
+                BACK</a>
             <a href="https://dreamhead1.github.io/MART341-WebDesign/Assignment13/index.html" 
-                style="float: right; margin-right: 625px; color: rgb(80, 24, 133);"> 
-                HOMEPAGE </a>
+                style=" margin-left: 100px; color: rgb(80, 24, 133);"> 
+                HOMEPAGE</a>
             <a 
-                href="https://dreamhead1.github.io/MART341-WebDesign/Assignment13/about.html" 
-                style="color: rgb(80, 24, 133);"> 
-                ABOUT </a>
+                href="https://dreamhead1.github.io/MART341-WebDesign/Assignment11/about.html" 
+                 style=" margin-left: 100px; color: rgb(80, 24, 133);"> 
+                ABOUT</a>
         </aside>
     </h2>
     </div>
