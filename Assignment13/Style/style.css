@@ -17,3 +17,11 @@ table, th, td {padding: 5px; background-color: rgb(80, 24, 133); margin-left: 10
 #introWorkshop li {text-align: left; color: rgb(142, 103, 5);}
 button {width: 40px;
         height: 40px;}
+img {height: auto;}
+.Art img{
+    margin-left: 50px;
+    margin-top: 50px;
+    height: auto;
+    width: auto;
+    max-height: 400px;
+    max-width: 400px;}
