@@ -14,9 +14,11 @@
 
     #
 - Navigation Menu – Include a clear, user-friendly navigation menu to allow visitors to easily access each page of the site.
+
     Patternized nav bar, I basically copy-pasted the design and made sure the semantics. Done to give a back option, a home option, an about option and a support option.
     #
 - Dropdown Menu – Add a dropdown menu within the navigation for sub-pages or sections, if applicable.
+
     Drop-down was used to declutter the page and its content, while making it more fun to access simultaneously to 
     making it more organized to interact with.
     #
