@@ -1,3 +1,23 @@
+* {
+    box-sizing: border-box;
+  }
+@media only screen and (max-width: 600px) {
+#img, .img, img {float: left;
+    margin-left: 50px; 
+    margin-top: 50px;
+    height: auto;
+    max-width: 50%;}
+}
+@media only screen and (min-width: 768px) {
+#img, .img, img {float: left;
+    margin-left: 50px; 
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;}
+        
 body {
     background-color: rgb(38, 68, 138); 
     border-color: black; 
@@ -38,7 +58,8 @@ i {
     text-align: left;}
 a {
     background-color: black; 
-    font-size: 40px;}
+    font-size: 40px;
+    color: rgb(80, 24, 133);}
 #iframeRow iframe {
     border: 1px groove black;}
 input {
@@ -78,10 +99,11 @@ button:hover {
     color: black; 
     border: 20px rgb(142, 103, 5) groove;}
 button {
-    width: 100%; 
+    width: auto; 
     background-color: inherit; 
     padding-top: 10px; 
-    padding-bottom: 10px;}
+    padding-bottom: 10px;
+    border-radius: 25px;}
 #hoverButtons a {
     font-family: 'RubikWetPaint-Regular', fantasy, cursive ;}
 .button a {
@@ -129,7 +151,7 @@ button {
     display: none;
     position: absolute sticky;
     bottom: -100px;
-    right: -450px;
+    right: -380px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -143,8 +165,6 @@ button {
     text-decoration:none;
     display: block;
     font-family: 'RubikWetPaint-Regular', fantasy, cursive ;}
-
-
 
 .hoverPurple button:hover {background-color: rgb(80, 24, 133);}
 
@@ -163,7 +183,7 @@ button {
     margin: ;
   
   */
-header {position: sticky;}
+header {position: sticky fixed;}
 
 @font-face {
     font-family: 'RubikWetPaint-Regular';
@@ -184,19 +204,10 @@ header {position: sticky;}
 
 #navbutton .button h3 {float: left;}
 
-img {height: auto;}
-
-.Art img{
-    margin-left: 50px;
-    margin-top: 50px;
-    height: auto;
-    width: auto;
-    max-height: 400px;
-    max-width: 400px;}
-
 #nav button {display: inline-block;
     max-width: 300px;
     max-height: 100px;
     padding-bottom: 10px; 
     margin-bottom: 10px;  
+}
 }

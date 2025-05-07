@@ -1,3 +1,27 @@
+* {
+    box-sizing: border-box;
+  }
+  @media only screen and (max-width: 600px) {
+#img, .img, img {
+    margin-left: 50px; 
+    margin-top: 50px;
+    height: auto;
+    max-width: 50%;
+}
+  }
+  @media only screen and (min-width: 768px) {
+#img, .img, img {float: left;
+    margin-left: 50px; 
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+#img, .imgEnd, img {float: left;}
+        
 body {
     background-color: rgb(38, 68, 138); 
     border-color: black; 
@@ -82,7 +106,8 @@ button {
     width: auto; 
     background-color: inherit; 
     padding-top: 10px; 
-    padding-bottom: 10px;}
+    padding-bottom: 10px;
+    border-radius: 25px;}
 #hoverButtons a {
     font-family: 'RubikWetPaint-Regular', fantasy, cursive ;}
 .button a {
@@ -162,7 +187,8 @@ button {
     margin: ;
   
   */
-header {position: sticky;}
+header {position: sticky;
+        top: 0px;}
 
 @font-face {
     font-family: 'RubikWetPaint-Regular';
@@ -183,19 +209,10 @@ header {position: sticky;}
 
 #navbutton .button h3 {float: left;}
 
-img {height: auto;}
-
-.Art img{
-    margin-left: 50px;
-    margin-top: 50px;
-    height: auto;
-    width: auto;
-    max-height: 400px;
-    max-width: 400px;}
-
 #nav button {display: inline-block;
     max-width: 300px;
     max-height: 100px;
     padding-bottom: 10px; 
     margin-bottom: 10px;  
+}
 }

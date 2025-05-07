@@ -4,13 +4,6 @@
     display: block;
     text-align: center;
   }
-  
-  /* Change styles for cancel button and signup button on extra small screens */
-  @media screen and (max-width: 300px) {
-     .button, .submit {
-      width: 100%;
-    }
-  }
 
 .labelInput label{
     display: block;
@@ -19,13 +12,6 @@
 .myFile {
     color: rgb(142, 103, 5)
     ;}
-  
-.hoverBtn, button {
-    border: 20px rgb(142, 103, 5) groove;
-    background-color: black;
-    padding: 0px;
-    font-size: 40px;
-  }
 .hoverBtn button:hover {
     background-color: rgb(80, 24, 133);
   }
