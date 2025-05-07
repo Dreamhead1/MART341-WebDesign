@@ -101,7 +101,7 @@ button {
     display: block;}
 .hidden {
     display: none;
-    position: absolute;
+    position: absolute sticky;
     bottom: -70px;
     right: -480px;
     min-width: 160px;
@@ -127,9 +127,9 @@ button {
     display: block;}
 .hidden2 {
     display: none;
-    position: absolute;
+    position: absolute sticky;
     bottom: -100px;
-    right: -380px;
+    right: -450px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -143,9 +143,8 @@ button {
     text-decoration:none;
     display: block;
     font-family: 'RubikWetPaint-Regular', fantasy, cursive ;}
-    
-button {width: 40px;
-        height: 40px;}
+
+
 
 .hoverPurple button:hover {background-color: rgb(80, 24, 133);}
 
@@ -164,7 +163,7 @@ button {width: 40px;
     margin: ;
   
   */
-
+header {position: sticky;}
 
 @font-face {
     font-family: 'RubikWetPaint-Regular';
@@ -181,4 +180,23 @@ button {width: 40px;
 @font-face {
     font-family: 'Flavors-Regular';
     src: url(https://dreamhead1.github.io/MART341-WebDesign/Assignment11/workshop/fonts/Flavors-Regular.ttf) format('truetype');
+}
+
+#navbutton .button h3 {float: left;}
+
+img {height: auto;}
+
+.Art img{
+    margin-left: 50px;
+    margin-top: 50px;
+    height: auto;
+    width: auto;
+    max-height: 400px;
+    max-width: 400px;}
+
+#nav button {display: inline-block;
+    max-width: 300px;
+    max-height: 100px;
+    padding-bottom: 10px; 
+    margin-bottom: 10px;  
 }

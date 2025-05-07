@@ -102,7 +102,7 @@ button {
     display: block;}
 .hidden {
     display: none;
-    position: absolute;
+    position: absolute sticky;
     bottom: -70px;
     right: -480px;
     min-width: 160px;
@@ -128,7 +128,7 @@ button {
     display: block;}
 .hidden2 {
     display: none;
-    position: absolute;
+    position: absolute sticky;
     bottom: -100px;
     right: -380px;
     min-width: 160px;
