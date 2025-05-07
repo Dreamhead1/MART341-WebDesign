@@ -181,6 +181,7 @@ header {position: sticky;}
     src: url(https://dreamhead1.github.io/MART341-WebDesign/Assignment11/workshop/fonts/Flavors-Regular.ttf) format('truetype');
 }
 
+#navbutton .button h3 {float: left;}
 
 img {height: auto;}
 

@@ -5,10 +5,11 @@
 
 - At Least 4 Pages – Your website should contain a minimum of four distinct pages that align with a cohesive theme.
     
-    workshop.html -> collective.html -> collectiveFile.html -> confirmationPage.html
+    workshop.html -> collective.html -> collectiveFile.html -> confirmationPage.html (also I tried to use these themes on my Index page.)
     #
 - Responsive Design – Ensure the website layout adjusts smoothly across different screen sizes (desktop, tablet, and mobile).
 
+    How I made my design responsive is through the meta tag, to make it mobile first, secondly I used auto height and max-width styling on images in the css style sheet.
     #
 - Media Queries – Use CSS media queries to make design adjustments at specific screen widths for optimal user experience on all devices.
 
