@@ -118,7 +118,7 @@
     border-top: 0px;
     border-bottom: 0px;
   }
-#menuOne,  .vertButton {
+#menuOne, .vertButton {
     height: 100%;
     width: 50px;
     position: fixed;
@@ -131,7 +131,7 @@
     text-orientation: upright;
     top: 132px;
     letter-spacing: 20px;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     font-family: var(--bs-font-monospace)
 }
@@ -148,7 +148,7 @@
     text-orientation: upright;
     top: 132px;
     letter-spacing: 50px;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     font-family: var(--bs-font-monospace)
 }
